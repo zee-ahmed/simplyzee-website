@@ -1,0 +1,45 @@
+baseURL = "http://simplyzee.dev"
+languageCode = "en-us"
+title = "Hi, I'm Zee!"
+theme = "introduction"
+
+[params]
+  themeStyle = "dark"
+  fadeIn = false
+  email = "zee@simplyzee.dev"
+
+  [[params.social]]
+    url = "https://twitter.com/simplyzee_dev"
+    icon = "twitter"
+    icon_pack = "fab"
+
+  [[params.social]]
+    url = "https://github.com/zee-ahmed"
+    icon = "github"
+    icon_pack = "fab"
+
+  [[params.social]]
+    url = "https://youtube.com/simplyzee"
+    icon = "youtube"
+    icon_pack = "fab"
+
+  [[params.social]]
+    url = "https://open.spotify.com/user/h655rgrv9q56dft88upxv2heo?si=BGD0tSWtQuG70faKwPuIHg"
+    icon = "spotify"
+    icon_pack = "fab"
+
+  [[params.social]]
+    url = "https://www.linkedin.com/in/zee-marsh-5454a547"
+    icon = "linkedin"
+    icon_pack = "fab"
+
+  [[params.social]]
+    url = "mailto:zee@simplyzee.dev"
+    icon = "paper-plane"
+    icon_pack = "fas"
+
+[languages]
+  [languages.en]
+    [languages.en.params]
+      description  = "SimplyZee Website"   # Max 160 characters show in search results
+      footerText   = " "                      # Text to override default footer text (markdown allowed)
