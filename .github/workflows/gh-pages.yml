@@ -30,3 +30,4 @@ jobs:
           github_token: ${{ secrets.TOKEN }}
           cname: simplyzee.dev
           publish_dir: "./public"
+          branch: gh-pages
